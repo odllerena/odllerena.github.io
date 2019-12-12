@@ -1,0 +1,106 @@
+/* -----------------------------------
+Basic rules
+
+
+/* -----------------------------------
+Navigation
+----------------------------------- */
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: inline-block;
+	list-style: none;
+	line-height: 1;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav a {
+	display: block;
+	padding: .5em;
+	color: black;
+	background: #FFFCFC;
+	border-bottom: 1px solid #070000;
+	text-decoration: none;
+}
+
+#nav-toggle {
+	display: block;
+	padding: .5em .5em .5em 40px;
+	color: black;
+	background-color: black;
+	background-image: url(responsive-nav.png);
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+	border-bottom: 1px solid black;
+	text-decoration: none;
+}
+
+#nav a:focus,
+#nav-toggle:focus {
+	background-color: black;
+}
+
+#nav a:hover,
+#nav-toggle:hover {
+	background-color: white;
+}
+
+#nav a:active,
+#nav-toggle:active {
+	background-color: white;
+}
+
+/* -----------------------------------
+Predefined
+----------------------------------- */
+
+.js #nav {
+	clip: rect(0 0 0 0);
+	max-height: 0;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#nav.opened {
+	max-height: 9999px;
+}
+
+/* -----------------------------------
+Navigation wide screen
+----------------------------------- */
+
+@media (min-width: 38em) {
+	.js #nav {
+		position: relative;
+	}
+
+	.js #nav.closed {
+		max-height: none;
+	}
+
+	#nav-toggle {
+		display: none;
+	}
+
+	#nav {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+		overflow: hidden;
+		zoom: 1;
+		background-color: #fff;
+		text-align: center;
+	}
+
+	#nav a {
+		display: inline-block;
+		padding: .5em 1em;
+		border-bottom: 0;
+		border-right: 1px solid #fff;
+	}
+}

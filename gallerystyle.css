@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.gallery {
+    border: 1px solid;
+    color: white;
+}
+
+.gallery img {
+
+    width: 100%;
+    height: 500px;
+}
+
+.title {
+    color: white;
+    display: block;
+    font-family: urw-din, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+
+    padding: 30px;
+}
+
+.des {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    font-family: urw-din, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+
+}
+
+.catalogo {
+    width: 300px;
+    height: 200px;
+
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width:720px) {
+    .responsive {
+        width: 100%;
+
+
+    }
+
+    .title {
+        padding: 35px;
+
+    }
+
+    .responsive {
+        padding: 10px;
+
+    }
+}
+
+
+@media only screen and (max-width:1024px) {
+    .responsive {
+        width: 100%;
+
+
+    }
+
+    .title {
+        padding: 35px;
+
+    }
+
+    .responsive {
+        padding: 10px;
+
+    }
+}

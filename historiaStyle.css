@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+.worker {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#block2,
+.heading1,
+#heading2,
+.historia {
+    color: white;
+    display: block;
+    font-family: urw-din, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.heading1,
+#heading2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.heading1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#block2,
+.historia {
+    color: white;
+    width: 100%;
+    padding: 40px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#heading2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#block1 {
+    float: left;
+
+}
+
+#block2 {
+    float: right;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .historia {
+        width: 60%;
+    }
+
+
+
+    .row {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #block1 {
+        float: left;
+    }
+
+    #block2 {
+        float: right;
+    }
+
+}

@@ -1,0 +1,155 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-size: 100%;
+
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    padding-top: 20px;
+
+
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.social {
+    height: 40px;
+}
+
+.social-media {
+
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+
+.number {
+    margin-right: 120px;
+    margin-top: -100px;
+    float: right;
+
+}
+
+.address {
+
+    margin-right: 200px;
+    margin-top: -40px;
+    float: right;
+}
+
+.cover {
+    width: 100%;
+}
+
+.P-address {
+    opacity: 0;
+
+}
+
+.PhoneNumber {
+    opacity: 0%;
+
+}
+
+@media (min-width: 760px) {
+
+    .img-wrap img {
+        max-width: 100%;
+        vertical-align: middle;
+        border: 0;
+    }
+
+    .sidebar {
+        width: 27%;
+        float: left;
+        padding-bottom: 1%;
+        margin-right: 3%;
+    }
+
+    .content {
+        width: 70%;
+        float: left;
+    }
+
+    footer {
+        clear: both;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    footer p,
+    h1 {
+        padding: 10px;
+    }
+
+
+    .cover {
+        margin-left: 80px;
+        width: 90%;
+        height: 565px;
+    }
+
+    .social {
+        height: 40px;
+    }
+
+    .social-media {
+
+        padding-top: 20px;
+        margin-left: 200px;
+
+    }
+
+    .number {
+        margin-right: 400px;
+        margin-top: -100px;
+        float: right;
+
+    }
+
+    .address {
+
+        margin-right: 400px;
+        margin-top: -40px;
+        float: right;
+    }
+
+    .P-address {
+        opacity: 100%;
+        margin-right: -270px;
+        margin-top: -40px;
+        float: right;
+
+    }
+
+    .PhoneNumber {
+        opacity: 100%;
+        margin-right: -120px;
+        margin-top: -1px;
+        float: right;
+    }
+
+}
